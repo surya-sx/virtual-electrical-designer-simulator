@@ -98,10 +98,3 @@ See `FIX_SUMMARY.md` for latest fixes and `VALIDATION_REPORT.md` for detailed ve
 - **ReportsPanel**: Summary, BOM, and results
 - **ScriptEditorPanel**: Python code editor and execution
 
-## License
-
-[Add your license here]
-
-## Contributing
-
-[Add contribution guidelines here]
