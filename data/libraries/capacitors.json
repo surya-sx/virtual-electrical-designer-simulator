@@ -1,0 +1,104 @@
+{
+  "library": "Capacitors",
+  "version": "2.0",
+  "category": "Passive Components",
+  "description": "Standard capacitor component library with common values and properties",
+  "components": [
+    {
+      "id": "C_100N",
+      "name": "100nF Capacitor",
+      "type": "Capacitor",
+      "symbol": "C",
+      "value": "100nF",
+      "properties": {
+        "Capacitance": 1e-7,
+        "Voltage Rating": 50,
+        "ESR": 0.1,
+        "Dielectric": "Ceramic",
+        "Temperature Coefficient": 100,
+        "Package Type": "1206"
+      },
+      "datasheet": "Generic Ceramic Capacitor"
+    },
+    {
+      "id": "C_10U",
+      "name": "10μF Capacitor",
+      "type": "Capacitor",
+      "symbol": "C",
+      "value": "10μF",
+      "properties": {
+        "Capacitance": 1e-5,
+        "Voltage Rating": 25,
+        "ESR": 0.5,
+        "Dielectric": "Electrolytic",
+        "Temperature Coefficient": 100,
+        "Package Type": "1206"
+      },
+      "datasheet": "Generic Electrolytic Capacitor"
+    },
+    {
+      "id": "C_1U",
+      "name": "1μF Capacitor",
+      "type": "Capacitor",
+      "symbol": "C",
+      "value": "1μF",
+      "properties": {
+        "Capacitance": 1e-6,
+        "Voltage Rating": 50,
+        "ESR": 0.2,
+        "Dielectric": "Film",
+        "Temperature Coefficient": 100,
+        "Package Type": "1206"
+      },
+      "datasheet": "Generic Film Capacitor"
+    },
+    {
+      "id": "C_47U",
+      "name": "47μF Capacitor",
+      "type": "Capacitor",
+      "symbol": "C",
+      "value": "47μF",
+      "properties": {
+        "Capacitance": 4.7e-5,
+        "Voltage Rating": 16,
+        "ESR": 0.8,
+        "Dielectric": "Electrolytic",
+        "Temperature Coefficient": 100,
+        "Package Type": "1206"
+      },
+      "datasheet": "Generic Electrolytic Capacitor"
+    },
+    {
+      "id": "C_1N",
+      "name": "1nF Capacitor",
+      "type": "Capacitor",
+      "symbol": "C",
+      "value": "1nF",
+      "properties": {
+        "Capacitance": 1e-9,
+        "Voltage Rating": 100,
+        "ESR": 0.05,
+        "Dielectric": "Ceramic",
+        "Temperature Coefficient": 100,
+        "Package Type": "1206"
+      },
+      "datasheet": "Generic Ceramic Capacitor"
+    },
+    {
+      "id": "C_22U",
+      "name": "22μF Capacitor",
+      "type": "Capacitor",
+      "symbol": "C",
+      "value": "22μF",
+      "properties": {
+        "Capacitance": 2.2e-5,
+        "Voltage Rating": 50,
+        "ESR": 0.6,
+        "Dielectric": "Electrolytic",
+        "Temperature Coefficient": 100,
+        "Package Type": "1206"
+      },
+      "datasheet": "Generic Electrolytic Capacitor"
+    }
+  ]
+}

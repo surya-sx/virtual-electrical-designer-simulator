@@ -1,0 +1,43 @@
+{
+  "libraries": {
+    "transistors": {
+      "file": "transistors.json",
+      "name": "Transistors",
+      "description": "BJT, MOSFET, JFET components",
+      "component_count": 6,
+      "categories": ["BJT", "MOSFET", "JFET"]
+    },
+    "analog_ics_extended": {
+      "file": "analog_ics_extended.json",
+      "name": "Analog ICs Extended",
+      "description": "Operational amplifiers, comparators, ADC/DAC",
+      "component_count": 8,
+      "categories": ["OpAmp", "Comparator", "ADC", "DAC"]
+    },
+    "digital_ics_extended": {
+      "file": "digital_ics_extended.json",
+      "name": "Digital ICs Extended",
+      "description": "Logic gates, flip-flops, counters, timers, microcontrollers",
+      "component_count": 10,
+      "categories": ["Logic Gate", "Flip-Flop", "Counter", "Timer", "Microcontroller"]
+    },
+    "power_semiconductors_extended": {
+      "file": "power_semiconductors_extended.json",
+      "name": "Power Semiconductors Extended",
+      "description": "Thyristors, IGBTs, power diodes, bridge rectifiers, TRIACs",
+      "component_count": 8,
+      "categories": ["Thyristor", "IGBT", "Power Diode", "Bridge Rectifier", "Triac"]
+    },
+    "passive_advanced_extended": {
+      "file": "passive_advanced_extended.json",
+      "name": "Passive Advanced Extended",
+      "description": "Transformers, relays, solenoids, oscillators, varistors, fuses, filters",
+      "component_count": 10,
+      "categories": ["Transformer", "Relay", "Solenoid", "Oscillator", "Varistor", "Fuse", "Filter"]
+    }
+  },
+  "total_components": 42,
+  "library_version": "1.0",
+  "last_updated": "2025-11-29",
+  "organization": "Complete EEE component library with professional-grade components"
+}

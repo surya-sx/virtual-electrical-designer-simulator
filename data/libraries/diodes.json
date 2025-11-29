@@ -1,0 +1,129 @@
+{
+  "library": "Diodes & Rectifier Components",
+  "version": "1.0",
+  "description": "Comprehensive diode library including rectifiers, Zener, Schottky, tunnel diodes, and photodiodes",
+  "components": [
+    {
+      "id": "D_1N4148",
+      "name": "1N4148 Switching Diode",
+      "type": "Diode",
+      "category": "Switching",
+      "value": "1N4148",
+      "max_voltage": 75,
+      "max_current": 0.2,
+      "reverse_recovery_time": "4ns",
+      "forward_voltage": 0.7,
+      "package": "DO-35",
+      "use_case": "High-speed switching circuits"
+    },
+    {
+      "id": "D_1N4007",
+      "name": "1N4007 Rectifier Diode",
+      "type": "Diode",
+      "category": "Rectifier",
+      "value": "1N4007",
+      "max_voltage": 1000,
+      "max_current": 1.0,
+      "forward_voltage": 0.7,
+      "reverse_recovery_time": "30ns",
+      "package": "DO-41",
+      "use_case": "General purpose rectification"
+    },
+    {
+      "id": "D_1N4004",
+      "name": "1N4004 Rectifier Diode",
+      "type": "Diode",
+      "category": "Rectifier",
+      "value": "1N4004",
+      "max_voltage": 400,
+      "max_current": 1.0,
+      "forward_voltage": 0.7,
+      "reverse_recovery_time": "30ns",
+      "package": "DO-41",
+      "use_case": "AC rectification, low voltage supplies"
+    },
+    {
+      "id": "D_SCHOTTKY_1N5819",
+      "name": "1N5819 Schottky Diode",
+      "type": "Diode",
+      "category": "Schottky",
+      "value": "1N5819",
+      "max_voltage": 40,
+      "max_current": 1.0,
+      "forward_voltage": 0.45,
+      "reverse_recovery_time": "10ns",
+      "package": "DO-41",
+      "use_case": "Low forward voltage rectification, switching"
+    },
+    {
+      "id": "D_ZENER_1N4733",
+      "name": "1N4733 Zener Diode 5.1V",
+      "type": "Diode",
+      "category": "Zener",
+      "value": "5.1V",
+      "zener_voltage": 5.1,
+      "max_power": 1.0,
+      "tolerance": "±5%",
+      "package": "DO-41",
+      "use_case": "Voltage regulation, reference"
+    },
+    {
+      "id": "D_ZENER_BZX55C12",
+      "name": "BZX55C12 Zener 12V",
+      "type": "Diode",
+      "category": "Zener",
+      "value": "12V",
+      "zener_voltage": 12,
+      "max_power": 0.5,
+      "tolerance": "±5%",
+      "package": "DO-35",
+      "use_case": "12V reference circuits"
+    },
+    {
+      "id": "D_BRIDGE_BR1010",
+      "name": "BR1010 Bridge Rectifier",
+      "type": "Bridge Rectifier",
+      "category": "Bridge",
+      "value": "BR1010",
+      "max_voltage": 100,
+      "max_current": 1.0,
+      "forward_voltage": 1.4,
+      "package": "BR-2",
+      "use_case": "AC to DC conversion, full wave rectification"
+    },
+    {
+      "id": "D_BRIDGE_KBPC2510",
+      "name": "KBPC2510 Bridge 25A",
+      "type": "Bridge Rectifier",
+      "category": "Bridge",
+      "value": "KBPC2510",
+      "max_voltage": 1000,
+      "max_current": 25,
+      "forward_voltage": 1.4,
+      "package": "GBJ",
+      "use_case": "High current power supplies"
+    },
+    {
+      "id": "D_TUNNEL_ESAKI",
+      "name": "Tunnel Diode",
+      "type": "Diode",
+      "category": "Tunnel",
+      "value": "Tunnel",
+      "peak_current": 0.015,
+      "peak_voltage": 0.2,
+      "frequency": "1GHz+",
+      "use_case": "Oscillators, RF circuits"
+    },
+    {
+      "id": "D_PHOTODIODE_BPW34",
+      "name": "BPW34 Photodiode",
+      "type": "Photodiode",
+      "category": "Optoelectronic",
+      "value": "BPW34",
+      "responsivity": "0.65A/W",
+      "wavelength": "950nm",
+      "max_reverse_voltage": 32,
+      "use_case": "Light detection, optical communication"
+    }
+  ]
+}

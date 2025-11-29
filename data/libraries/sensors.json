@@ -1,0 +1,128 @@
+{
+  "library": "Sensors & Transducers",
+  "version": "1.0",
+  "description": "Temperature, pressure, distance, motion, humidity, light, and environmental sensors",
+  "components": [
+    {
+      "id": "SENSOR_TEMP_DS18B20",
+      "name": "DS18B20 Digital Temperature Sensor",
+      "type": "Temperature Sensor",
+      "category": "Digital",
+      "value": "DS18B20",
+      "measurement_range": "-55 to +125°C",
+      "accuracy": "±0.5°C",
+      "interface": "1-Wire",
+      "resolution": 12,
+      "package": "TO-92/SO-8",
+      "use_case": "Temperature monitoring, thermal control"
+    },
+    {
+      "id": "SENSOR_TEMP_DHT22",
+      "name": "DHT22 Temperature & Humidity Sensor",
+      "type": "Environmental Sensor",
+      "category": "Temperature/Humidity",
+      "value": "DHT22",
+      "temperature_range": "-40 to +80°C",
+      "humidity_range": "0 to 100%",
+      "accuracy_temp": "±0.5°C",
+      "accuracy_humid": "±2%",
+      "interface": "Digital",
+      "use_case": "Weather stations, environmental monitoring"
+    },
+    {
+      "id": "SENSOR_PRESSURE_BMP280",
+      "name": "BMP280 Pressure & Temperature Sensor",
+      "type": "Pressure Sensor",
+      "category": "Environmental",
+      "value": "BMP280",
+      "pressure_range": "300 to 1100hPa",
+      "accuracy": "±1hPa",
+      "interface": "I2C/SPI",
+      "operating_range": "-40 to +85°C",
+      "use_case": "Altitude measurement, weather monitoring"
+    },
+    {
+      "id": "SENSOR_DISTANCE_HC_SR04",
+      "name": "HC-SR04 Ultrasonic Distance Sensor",
+      "type": "Distance Sensor",
+      "category": "Ultrasonic",
+      "value": "HC-SR04",
+      "measurement_range": "2cm to 400cm",
+      "accuracy": "±3cm",
+      "frequency": 40000,
+      "interface": "Pulse",
+      "use_case": "Obstacle detection, distance measurement"
+    },
+    {
+      "id": "SENSOR_MOTION_PIR",
+      "name": "PIR Motion Sensor",
+      "type": "Motion Sensor",
+      "category": "Infrared",
+      "value": "HC-SR501",
+      "detection_angle": 120,
+      "range": "5 to 7 meters",
+      "output_type": "Digital",
+      "delay_time": "5 to 300 seconds",
+      "use_case": "Motion detection, security systems"
+    },
+    {
+      "id": "SENSOR_LIGHT_LUX",
+      "name": "BH1750 Light Sensor",
+      "type": "Light Sensor",
+      "category": "Ambient Light",
+      "value": "BH1750",
+      "measurement_range": "1 to 65535lux",
+      "interface": "I2C",
+      "resolution": 16,
+      "operating_range": "-20 to +60°C",
+      "use_case": "Light level detection, automatic brightness"
+    },
+    {
+      "id": "SENSOR_HUMIDITY_CAPACITIVE",
+      "name": "Capacitive Humidity Sensor",
+      "type": "Humidity Sensor",
+      "category": "Capacitive",
+      "value": "Capacitive",
+      "measurement_range": "0 to 100%RH",
+      "accuracy": "±3%",
+      "interface": "Analog/I2C",
+      "operating_range": "-40 to +125°C",
+      "use_case": "Moisture detection, climate control"
+    },
+    {
+      "id": "SENSOR_CURRENT_ACS712",
+      "name": "ACS712 Current Sensor",
+      "type": "Current Sensor",
+      "category": "Hall Effect",
+      "value": "ACS712-30A",
+      "current_range": "±30A",
+      "sensitivity": 66,
+      "output_type": "Analog",
+      "package": "SOIC-8",
+      "use_case": "Current monitoring, power measurement"
+    },
+    {
+      "id": "SENSOR_GYRO_MPU6050",
+      "name": "MPU6050 Gyro/Accelerometer",
+      "type": "IMU",
+      "category": "MEMS",
+      "value": "MPU6050",
+      "acceleration_range": "±16g",
+      "gyro_range": "±2000°/s",
+      "interface": "I2C",
+      "operating_voltage": "3.3V",
+      "use_case": "Motion tracking, drone stabilization"
+    },
+    {
+      "id": "SENSOR_MAGNETIC_HMC5883L",
+      "name": "HMC5883L Magnetometer",
+      "type": "Magnetic Sensor",
+      "category": "Compass",
+      "value": "HMC5883L",
+      "measurement_range": "±8 Gauss",
+      "interface": "I2C",
+      "output_type": "Digital",
+      "use_case": "Compass, magnetic field detection"
+    }
+  ]
+}

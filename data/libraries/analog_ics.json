@@ -1,0 +1,133 @@
+{
+  "library": "Analog ICs & Operational Amplifiers",
+  "version": "1.0",
+  "description": "Operational amplifiers, comparators, voltage regulators, audio amplifiers, and analog signal processing",
+  "components": [
+    {
+      "id": "OPAMP_LM358",
+      "name": "LM358 Dual Op-Amp",
+      "type": "Operational Amplifier",
+      "category": "General Purpose",
+      "value": "LM358",
+      "supply_voltage": "3 to 32V",
+      "max_output_current": 0.04,
+      "gain_bandwidth_product": 1000000,
+      "slew_rate": 0.5,
+      "package": "DIP-8/SOIC-8",
+      "use_case": "Instrumentation, audio preamp, comparators"
+    },
+    {
+      "id": "OPAMP_TL072",
+      "name": "TL072 Low Noise Op-Amp",
+      "type": "Operational Amplifier",
+      "category": "Low Noise",
+      "value": "TL072",
+      "supply_voltage": "±5 to ±18V",
+      "max_output_current": 0.05,
+      "gain_bandwidth_product": 3000000,
+      "slew_rate": 13.0,
+      "noise": "30nV/√Hz",
+      "package": "DIP-8/SOIC-8",
+      "use_case": "Audio amplification, high-fidelity circuits"
+    },
+    {
+      "id": "OPAMP_NE5532",
+      "name": "NE5532 Low Noise Dual Op-Amp",
+      "type": "Operational Amplifier",
+      "category": "Audio",
+      "value": "NE5532",
+      "supply_voltage": "±5 to ±22V",
+      "max_output_current": 0.1,
+      "gain_bandwidth_product": 10000000,
+      "noise": "9nV/√Hz",
+      "package": "DIP-8",
+      "use_case": "Professional audio equipment, mixing consoles"
+    },
+    {
+      "id": "OPAMP_LM741",
+      "name": "LM741 Classic Op-Amp",
+      "type": "Operational Amplifier",
+      "category": "General Purpose",
+      "value": "LM741",
+      "supply_voltage": "±5 to ±18V",
+      "max_output_current": 0.025,
+      "gain_bandwidth_product": 1000000,
+      "slew_rate": 0.5,
+      "package": "DIP-8",
+      "use_case": "Educational, legacy designs, basic amplification"
+    },
+    {
+      "id": "COMPARATOR_LM311",
+      "name": "LM311 Voltage Comparator",
+      "type": "Comparator",
+      "category": "Comparator",
+      "value": "LM311",
+      "supply_voltage": "±5 to ±18V",
+      "response_time": 165,
+      "output_type": "Open collector",
+      "package": "DIP-8",
+      "use_case": "Precision comparator, window detector"
+    },
+    {
+      "id": "COMPARATOR_LM393",
+      "name": "LM393 Dual Comparator",
+      "type": "Comparator",
+      "category": "Comparator",
+      "value": "LM393",
+      "supply_voltage": "2 to 36V",
+      "response_time": 1.3,
+      "output_type": "Open collector",
+      "package": "DIP-8/SOIC-8",
+      "use_case": "Zero crossing detector, window comparator"
+    },
+    {
+      "id": "VREG_LM7805",
+      "name": "LM7805 +5V Voltage Regulator",
+      "type": "Linear Regulator",
+      "category": "Voltage Regulator",
+      "value": "LM7805",
+      "output_voltage": 5.0,
+      "max_output_current": 1.5,
+      "input_voltage_range": "7 to 25V",
+      "quiescent_current": 0.005,
+      "package": "TO-220",
+      "use_case": "5V logic supply, standard regulator"
+    },
+    {
+      "id": "VREG_LM7812",
+      "name": "LM7812 +12V Voltage Regulator",
+      "type": "Linear Regulator",
+      "category": "Voltage Regulator",
+      "value": "LM7812",
+      "output_voltage": 12.0,
+      "max_output_current": 1.5,
+      "input_voltage_range": "15 to 30V",
+      "package": "TO-220",
+      "use_case": "12V logic supply, power supply circuits"
+    },
+    {
+      "id": "VREG_LM1117",
+      "name": "LM1117 Adjustable Low Dropout Regulator",
+      "type": "Low Dropout Regulator",
+      "category": "LDO Regulator",
+      "value": "LM1117",
+      "output_voltage": "Adjustable",
+      "max_output_current": 0.8,
+      "dropout_voltage": 1.2,
+      "package": "SOT-223",
+      "use_case": "Low power circuits, battery powered devices"
+    },
+    {
+      "id": "MIXER_TL074",
+      "name": "TL074 Quad Op-Amp",
+      "type": "Operational Amplifier",
+      "category": "Quad",
+      "value": "TL074",
+      "supply_voltage": "±5 to ±18V",
+      "channels": 4,
+      "gain_bandwidth_product": 3000000,
+      "package": "DIP-14",
+      "use_case": "Audio mixing, stereo circuits, multi-channel processing"
+    }
+  ]
+}

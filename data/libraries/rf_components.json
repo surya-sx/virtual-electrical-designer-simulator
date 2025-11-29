@@ -1,0 +1,128 @@
+{
+  "library": "RF & Signal Components",
+  "version": "1.0",
+  "description": "RF components, antennas, transmission lines, filters, impedance matching networks",
+  "components": [
+    {
+      "id": "ANTENNA_DIPOLE",
+      "name": "Dipole Antenna",
+      "type": "Antenna",
+      "category": "Wire Antenna",
+      "value": "Dipole",
+      "frequency_range": "10MHz to 1GHz",
+      "gain": 2.15,
+      "impedance": 73,
+      "polarization": "Linear",
+      "use_case": "FM/AM radio, VHF transmission"
+    },
+    {
+      "id": "ANTENNA_HELICAL",
+      "name": "Helical Antenna",
+      "type": "Antenna",
+      "category": "Helix",
+      "value": "Helical",
+      "frequency_range": "50MHz to 2GHz",
+      "gain": 12,
+      "impedance": 140,
+      "polarization": "Circular",
+      "use_case": "Satellite communication, GPS"
+    },
+    {
+      "id": "COAX_RG58",
+      "name": "RG-58 Coaxial Cable",
+      "type": "Transmission Line",
+      "category": "Coaxial",
+      "value": "RG-58",
+      "impedance": 50,
+      "velocity_factor": 0.66,
+      "attenuation_1GHz": 0.21,
+      "shielding": "85%",
+      "use_case": "RF connections, antenna feeders"
+    },
+    {
+      "id": "COAX_RG59",
+      "name": "RG-59 Coaxial Cable",
+      "type": "Transmission Line",
+      "category": "Coaxial",
+      "value": "RG-59",
+      "impedance": 75,
+      "velocity_factor": 0.66,
+      "attenuation_1GHz": 0.15,
+      "shielding": "85%",
+      "use_case": "Video cables, low frequency RF"
+    },
+    {
+      "id": "FILTER_LOWPASS_1GHZ",
+      "name": "Low-Pass Filter 1GHz",
+      "type": "Filter",
+      "category": "RF Filter",
+      "value": "1GHz",
+      "cutoff_frequency": 1000000000,
+      "attenuation": 50,
+      "impedance": 50,
+      "insertion_loss": 0.5,
+      "use_case": "Spurious suppression, noise reduction"
+    },
+    {
+      "id": "FILTER_BANDPASS_2450MHZ",
+      "name": "Band-Pass Filter 2.45GHz",
+      "type": "Filter",
+      "category": "RF Filter",
+      "value": "2.45GHz",
+      "center_frequency": 2450000000,
+      "bandwidth": 100000000,
+      "attenuation": 40,
+      "insertion_loss": 1.0,
+      "use_case": "WiFi/Bluetooth filtering, interference rejection"
+    },
+    {
+      "id": "MATCHING_NETWORK_50OHM",
+      "name": "Impedance Matching Network",
+      "type": "Matching Network",
+      "category": "Tuning",
+      "value": "50Ω",
+      "input_impedance": 50,
+      "output_impedance": 75,
+      "frequency_range": "100MHz to 2GHz",
+      "loss": 0.2,
+      "use_case": "Impedance matching, reflection reduction"
+    },
+    {
+      "id": "ATTENUATOR_20DB",
+      "name": "RF Attenuator 20dB",
+      "type": "Attenuator",
+      "category": "RF Component",
+      "value": "20dB",
+      "attenuation": 20,
+      "impedance": 50,
+      "frequency_range": "DC to 6GHz",
+      "power_rating": 1.0,
+      "use_case": "Signal level reduction, load matching"
+    },
+    {
+      "id": "SPLITTER_2WAY",
+      "name": "2-Way RF Splitter",
+      "type": "Splitter",
+      "category": "Passive",
+      "value": "2-way",
+      "impedance": 50,
+      "frequency_range": "5MHz to 2500MHz",
+      "insertion_loss": 3.5,
+      "isolation": 20,
+      "use_case": "Signal distribution, antenna switching"
+    },
+    {
+      "id": "CRYSTAL_OSCILLATOR_16MHZ",
+      "name": "Crystal Oscillator 16MHz",
+      "type": "Oscillator",
+      "category": "Crystal",
+      "value": "16MHz",
+      "frequency": 16000000,
+      "frequency_tolerance": 50,
+      "load_capacitance": 18,
+      "esr": 80,
+      "package": "HC-49",
+      "use_case": "Microcontroller clock, timing reference"
+    }
+  ]
+}

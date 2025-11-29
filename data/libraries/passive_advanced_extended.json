@@ -1,0 +1,183 @@
+{
+  "components": [
+    {
+      "id": "transformer_step_down",
+      "name": "Step-Down Transformer 120V to 24V",
+      "type": "Transformer",
+      "category": "Transformers",
+      "description": "120V AC primary to 24V AC secondary, 1kVA rated",
+      "parameters": {
+        "primary_voltage": 120,
+        "secondary_voltage": 24,
+        "power_rating": 1000,
+        "frequency": 60,
+        "efficiency": 0.95,
+        "turns_ratio": 5,
+        "impedance": 0.05,
+        "max_current_primary": 8.3,
+        "max_current_secondary": 41.7
+      },
+      "pins": {
+        "1": "Primary A",
+        "2": "Primary B",
+        "3": "Secondary A",
+        "4": "Secondary B"
+      },
+      "package": "Through-hole"
+    },
+    {
+      "id": "transformer_ferrite_core",
+      "name": "Ferrite Core Transformer",
+      "type": "Transformer",
+      "category": "Transformers",
+      "description": "Ferrite core transformer for switching supplies",
+      "parameters": {
+        "frequency_range": [50000, 500000],
+        "power_rating": 100,
+        "primary_inductance": 0.001,
+        "secondary_inductance": 0.001,
+        "turns_ratio": 1,
+        "core_material": "Ferrite"
+      },
+      "package": "Surface Mount"
+    },
+    {
+      "id": "relay_12v_spdt",
+      "name": "12V SPDT Relay",
+      "type": "Relay",
+      "category": "Electromechanical",
+      "description": "12V DC Single-Pole Double-Throw relay, 10A contacts",
+      "parameters": {
+        "coil_voltage": 12,
+        "coil_resistance": 400,
+        "contact_rating": 10,
+        "contact_type": "SPDT",
+        "pickup_time": 5e-3,
+        "drop_out_time": 2e-3,
+        "isolation_voltage": 2000
+      },
+      "pins": {
+        "1": "Coil +",
+        "2": "Coil -",
+        "3": "COM",
+        "4": "NO",
+        "5": "NC"
+      },
+      "package": "5-pin DIP"
+    },
+    {
+      "id": "relay_5v_spdt",
+      "name": "5V SPDT Relay",
+      "type": "Relay",
+      "category": "Electromechanical",
+      "description": "5V DC relay, 6A contacts",
+      "parameters": {
+        "coil_voltage": 5,
+        "coil_resistance": 100,
+        "contact_rating": 6,
+        "contact_type": "SPDT"
+      },
+      "package": "5-pin DIP"
+    },
+    {
+      "id": "solenoid_24v",
+      "name": "24V DC Solenoid",
+      "type": "Solenoid",
+      "category": "Electromechanical",
+      "description": "24V DC solenoid actuator",
+      "parameters": {
+        "coil_voltage": 24,
+        "coil_current": 0.5,
+        "force": 100,
+        "stroke": 0.01,
+        "duty_cycle": 1.0
+      },
+      "pins": {
+        "1": "+24V",
+        "2": "GND"
+      }
+    },
+    {
+      "id": "crystal_16mhz",
+      "name": "16MHz Crystal Oscillator",
+      "type": "Oscillator",
+      "category": "Passive Advanced",
+      "description": "16MHz quartz crystal for microcontroller clock",
+      "parameters": {
+        "frequency": 16000000,
+        "frequency_tolerance": 30e-6,
+        "load_capacitance": 20e-12,
+        "esr": 80,
+        "temperature_coefficient": -0.04e-6
+      },
+      "pins": {
+        "1": "Oscillation 1",
+        "2": "Oscillation 2"
+      },
+      "package": "HC-49/UP"
+    },
+    {
+      "id": "crystal_32khz",
+      "name": "32.768kHz Crystal Oscillator",
+      "type": "Oscillator",
+      "category": "Passive Advanced",
+      "description": "32.768kHz watch crystal for RTC circuits",
+      "parameters": {
+        "frequency": 32768,
+        "frequency_tolerance": 10e-6,
+        "load_capacitance": 12.5e-12,
+        "esr": 50000,
+        "temperature_coefficient": -0.04e-6
+      },
+      "package": "2032 (coin cell)"
+    },
+    {
+      "id": "varistor_10mm",
+      "name": "10mm Varistor MOV",
+      "type": "Varistor",
+      "category": "Passive Advanced",
+      "description": "Metal oxide varistor for surge protection",
+      "parameters": {
+        "rated_voltage": 230,
+        "energy_absorption": 25,
+        "peak_current": 2000,
+        "clamping_voltage": 450,
+        "capacitance": 900e-12,
+        "temperature_coefficient": 0.003
+      },
+      "pins": {
+        "1": "Terminal 1",
+        "2": "Terminal 2"
+      }
+    },
+    {
+      "id": "fuse_1a",
+      "name": "1A Slow Fuse",
+      "type": "Fuse",
+      "category": "Protection",
+      "description": "1A slow-blow fuse for circuit protection",
+      "parameters": {
+        "rated_current": 1,
+        "rated_voltage": 250,
+        "trip_time": 0.1,
+        "breaking_capacity": 10000,
+        "fuse_type": "Slow-blow"
+      },
+      "package": "5x20mm"
+    },
+    {
+      "id": "filter_pi",
+      "name": "LC Pi Filter",
+      "type": "Filter",
+      "category": "Passive Advanced",
+      "description": "L-C-R Pi filter for noise suppression",
+      "parameters": {
+        "inductance": 0.01,
+        "capacitance": 0.1e-6,
+        "resistance": 1,
+        "frequency_response": [50, 100000],
+        "attenuation_at_100k": 20
+      }
+    }
+  ]
+}

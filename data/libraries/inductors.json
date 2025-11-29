@@ -1,0 +1,78 @@
+{
+  "library": "Inductors",
+  "version": "1.0",
+  "category": "Passive Components",
+  "description": "Standard inductor component library with common values",
+  "components": [
+    {
+      "id": "L_1U",
+      "name": "Inductor",
+      "type": "Inductor",
+      "value": "1μH",
+      "inductance": 1e-6,
+      "unit": "H",
+      "current_rating": "5A",
+      "dcr": "0.05Ω",
+      "package": "Through-Hole",
+      "core_material": "Air",
+      "symbol": "L",
+      "datasheet": "Generic Wire Inductor"
+    },
+    {
+      "id": "L_10U",
+      "name": "Inductor",
+      "type": "Inductor",
+      "value": "10μH",
+      "inductance": 1e-5,
+      "unit": "H",
+      "current_rating": "3A",
+      "dcr": "0.15Ω",
+      "package": "Through-Hole",
+      "core_material": "Ferrite",
+      "symbol": "L",
+      "datasheet": "Generic Ferrite Inductor"
+    },
+    {
+      "id": "L_100U",
+      "name": "Inductor",
+      "type": "Inductor",
+      "value": "100μH",
+      "inductance": 1e-4,
+      "unit": "H",
+      "current_rating": "2A",
+      "dcr": "0.5Ω",
+      "package": "Through-Hole",
+      "core_material": "Ferrite",
+      "symbol": "L",
+      "datasheet": "Generic Ferrite Inductor"
+    },
+    {
+      "id": "L_1M",
+      "name": "Inductor",
+      "type": "Inductor",
+      "value": "1mH",
+      "inductance": 1e-3,
+      "unit": "H",
+      "current_rating": "1A",
+      "dcr": "2Ω",
+      "package": "Through-Hole",
+      "core_material": "Ferrite",
+      "symbol": "L",
+      "datasheet": "Generic Ferrite Inductor"
+    },
+    {
+      "id": "L_10M",
+      "name": "Inductor",
+      "type": "Inductor",
+      "value": "10mH",
+      "inductance": 1e-2,
+      "unit": "H",
+      "current_rating": "0.5A",
+      "dcr": "10Ω",
+      "package": "Through-Hole",
+      "core_material": "Iron",
+      "symbol": "L",
+      "datasheet": "Generic Iron Core Inductor"
+    }
+  ]
+}

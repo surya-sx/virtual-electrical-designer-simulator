@@ -1,0 +1,82 @@
+{
+  "library": "Semiconductors",
+  "version": "1.0",
+  "category": "Active Components",
+  "description": "Diodes, transistors, and integrated circuits",
+  "components": [
+    {
+      "id": "D_1N4148",
+      "name": "Diode",
+      "type": "Diode",
+      "value": "1N4148",
+      "package": "Through-Hole",
+      "max_voltage": 75,
+      "max_current": 0.2,
+      "forward_voltage": 0.7,
+      "symbol": "D",
+      "datasheet": "1N4148 Switching Diode"
+    },
+    {
+      "id": "D_1N4007",
+      "name": "Diode",
+      "type": "Diode",
+      "value": "1N4007",
+      "package": "Through-Hole",
+      "max_voltage": 1000,
+      "max_current": 1,
+      "forward_voltage": 1.1,
+      "symbol": "D",
+      "datasheet": "1N4007 Rectifier Diode"
+    },
+    {
+      "id": "LED_Red",
+      "name": "LED",
+      "type": "LED",
+      "value": "Red LED",
+      "color": "Red",
+      "package": "Through-Hole",
+      "max_current": 0.02,
+      "forward_voltage": 1.8,
+      "wavelength": 625,
+      "symbol": "LED",
+      "datasheet": "Generic Red LED"
+    },
+    {
+      "id": "LED_Green",
+      "name": "LED",
+      "type": "LED",
+      "value": "Green LED",
+      "color": "Green",
+      "package": "Through-Hole",
+      "max_current": 0.02,
+      "forward_voltage": 2.1,
+      "wavelength": 565,
+      "symbol": "LED",
+      "datasheet": "Generic Green LED"
+    },
+    {
+      "id": "BJT_2N2222",
+      "name": "Transistor",
+      "type": "BJT NPN",
+      "value": "2N2222",
+      "package": "TO-92",
+      "max_voltage": 30,
+      "max_current": 0.8,
+      "hfe": 100,
+      "symbol": "Q",
+      "datasheet": "2N2222 NPN Transistor"
+    },
+    {
+      "id": "BJT_2N2907",
+      "name": "Transistor",
+      "type": "BJT PNP",
+      "value": "2N2907",
+      "package": "TO-92",
+      "max_voltage": 60,
+      "max_current": 0.6,
+      "hfe": 100,
+      "symbol": "Q",
+      "datasheet": "2N2907 PNP Transistor"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "library": "Transformers",
+  "version": "1.0",
+  "category": "Power Components",
+  "description": "Transformer components for AC circuits",
+  "components": [
+    {
+      "id": "T_10VA",
+      "name": "Transformer",
+      "type": "Transformer",
+      "value": "10VA",
+      "primary_voltage": 230,
+      "secondary_voltage": 12,
+      "power_rating": 10,
+      "turns_ratio": 19.17,
+      "core_material": "Laminated Steel",
+      "package": "Through-Hole",
+      "symbol": "T",
+      "datasheet": "Generic 10VA Transformer"
+    },
+    {
+      "id": "T_50VA",
+      "name": "Transformer",
+      "type": "Transformer",
+      "value": "50VA",
+      "primary_voltage": 230,
+      "secondary_voltage": 24,
+      "power_rating": 50,
+      "turns_ratio": 9.58,
+      "core_material": "Laminated Steel",
+      "package": "Through-Hole",
+      "symbol": "T",
+      "datasheet": "Generic 50VA Transformer"
+    },
+    {
+      "id": "T_100VA",
+      "name": "Transformer",
+      "type": "Transformer",
+      "value": "100VA",
+      "primary_voltage": 230,
+      "secondary_voltage": 48,
+      "power_rating": 100,
+      "turns_ratio": 4.79,
+      "core_material": "Laminated Steel",
+      "package": "Through-Hole",
+      "symbol": "T",
+      "datasheet": "Generic 100VA Transformer"
+    },
+    {
+      "id": "T_500VA",
+      "name": "Transformer",
+      "type": "Transformer",
+      "value": "500VA",
+      "primary_voltage": 230,
+      "secondary_voltage": 110,
+      "power_rating": 500,
+      "turns_ratio": 2.09,
+      "core_material": "Laminated Steel",
+      "package": "Panel Mount",
+      "symbol": "T",
+      "datasheet": "Generic 500VA Transformer"
+    }
+  ]
+}

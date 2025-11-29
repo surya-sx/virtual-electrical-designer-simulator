@@ -1,0 +1,110 @@
+{
+  "library": "Resistors",
+  "version": "2.0",
+  "category": "Passive Components",
+  "description": "Standard resistor component library with common values and properties",
+  "components": [
+    {
+      "id": "R_1K",
+      "name": "1kΩ Resistor",
+      "type": "Resistor",
+      "symbol": "R",
+      "value": "1kΩ",
+      "properties": {
+        "Resistance": 1000,
+        "Tolerance": 5,
+        "Power Rating": 0.25,
+        "Temperature Coefficient": 100,
+        "Package Type": "1206",
+        "Manufacturer": "Generic",
+        "Part Number": "R1/4W1K"
+      },
+      "datasheet": "Generic 1/4W Resistor"
+    },
+    {
+      "id": "R_10K",
+      "name": "10kΩ Resistor",
+      "type": "Resistor",
+      "symbol": "R",
+      "value": "10kΩ",
+      "properties": {
+        "Resistance": 10000,
+        "Tolerance": 5,
+        "Power Rating": 0.25,
+        "Temperature Coefficient": 100,
+        "Package Type": "1206",
+        "Manufacturer": "Generic",
+        "Part Number": "R1/4W10K"
+      },
+      "datasheet": "Generic 1/4W Resistor"
+    },
+    {
+      "id": "R_100K",
+      "name": "100kΩ Resistor",
+      "type": "Resistor",
+      "symbol": "R",
+      "value": "100kΩ",
+      "properties": {
+        "Resistance": 100000,
+        "Tolerance": 5,
+        "Power Rating": 0.25,
+        "Temperature Coefficient": 100,
+        "Package Type": "1206",
+        "Manufacturer": "Generic",
+        "Part Number": "R1/4W100K"
+      },
+      "datasheet": "Generic 1/4W Resistor"
+    },
+    {
+      "id": "R_1M",
+      "name": "1MΩ Resistor",
+      "type": "Resistor",
+      "symbol": "R",
+      "value": "1MΩ",
+      "properties": {
+        "Resistance": 1000000,
+        "Tolerance": 5,
+        "Power Rating": 0.25,
+        "Temperature Coefficient": 100,
+        "Package Type": "1206",
+        "Manufacturer": "Generic",
+        "Part Number": "R1/4W1M"
+      },
+      "datasheet": "Generic 1/4W Resistor"
+    },
+    {
+      "id": "R_470",
+      "name": "470Ω Resistor",
+      "type": "Resistor",
+      "symbol": "R",
+      "value": "470Ω",
+      "properties": {
+        "Resistance": 470,
+        "Tolerance": 5,
+        "Power Rating": 0.25,
+        "Temperature Coefficient": 100,
+        "Package Type": "1206",
+        "Manufacturer": "Generic",
+        "Part Number": "R1/4W470"
+      },
+      "datasheet": "Generic 1/4W Resistor"
+    },
+    {
+      "id": "R_2.2K",
+      "name": "2.2kΩ Resistor",
+      "type": "Resistor",
+      "symbol": "R",
+      "value": "2.2kΩ",
+      "properties": {
+        "Resistance": 2200,
+        "Tolerance": 5,
+        "Power Rating": 0.25,
+        "Temperature Coefficient": 100,
+        "Package Type": "1206",
+        "Manufacturer": "Generic",
+        "Part Number": "R1/4W2.2K"
+      },
+      "datasheet": "Generic 1/4W Resistor"
+    }
+  ]
+}

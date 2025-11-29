@@ -1,0 +1,72 @@
+{
+  "library": "Switches & Relays",
+  "version": "1.0",
+  "category": "Control Components",
+  "description": "Switches, relays, and control components",
+  "components": [
+    {
+      "id": "SW_SPST",
+      "name": "Switch",
+      "type": "Switch",
+      "value": "SPST",
+      "contact_type": "Single Pole Single Throw",
+      "max_voltage": 250,
+      "max_current": 10,
+      "package": "Through-Hole",
+      "symbol": "SW",
+      "datasheet": "Generic SPST Switch"
+    },
+    {
+      "id": "SW_SPDT",
+      "name": "Switch",
+      "type": "Switch",
+      "value": "SPDT",
+      "contact_type": "Single Pole Double Throw",
+      "max_voltage": 250,
+      "max_current": 10,
+      "package": "Through-Hole",
+      "symbol": "SW",
+      "datasheet": "Generic SPDT Switch"
+    },
+    {
+      "id": "SW_Push",
+      "name": "Push Button",
+      "type": "Push Button",
+      "value": "Momentary Push",
+      "contact_type": "SPST Momentary",
+      "max_voltage": 50,
+      "max_current": 5,
+      "package": "Through-Hole",
+      "symbol": "PB",
+      "datasheet": "Generic Push Button"
+    },
+    {
+      "id": "R_5V_DPDT",
+      "name": "Relay",
+      "type": "Relay",
+      "value": "5V DPDT",
+      "coil_voltage": 5,
+      "coil_resistance": 300,
+      "contact_type": "Double Pole Double Throw",
+      "max_contact_voltage": 250,
+      "max_contact_current": 10,
+      "package": "Through-Hole",
+      "symbol": "RLY",
+      "datasheet": "Generic 5V DPDT Relay"
+    },
+    {
+      "id": "R_12V_SPDT",
+      "name": "Relay",
+      "type": "Relay",
+      "value": "12V SPDT",
+      "coil_voltage": 12,
+      "coil_resistance": 400,
+      "contact_type": "Single Pole Double Throw",
+      "max_contact_voltage": 250,
+      "max_contact_current": 15,
+      "package": "Through-Hole",
+      "symbol": "RLY",
+      "datasheet": "Generic 12V SPDT Relay"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "id": "thyristor_c106d",
+      "name": "C106D - Silicon Controlled Rectifier",
+      "type": "Thyristor",
+      "category": "Power Semiconductors",
+      "description": "4-ampere silicon controlled rectifier (SCR)",
+      "parameters": {
+        "vrrm": 400,
+        "it_rms": 4,
+        "igt": 50e-3,
+        "vgt": 1.5,
+        "rthja": 40,
+        "on_state_voltage": 1.5
+      },
+      "pins": {
+        "1": "Anode",
+        "2": "Gate",
+        "3": "Cathode"
+      },
+      "package": "TO-202"
+    },
+    {
+      "id": "thyristor_2n4441",
+      "name": "2N4441 - SCR",
+      "type": "Thyristor",
+      "category": "Power Semiconductors",
+      "description": "Silicon controlled rectifier, 0.8A",
+      "parameters": {
+        "vrrm": 100,
+        "it_rms": 0.8,
+        "igt": 0.3,
+        "vgt": 2.0
+      },
+      "package": "TO-202"
+    },
+    {
+      "id": "igbt_irg4bc30kd",
+      "name": "IRG4BC30KD - IGBT",
+      "type": "IGBT",
+      "category": "Power Semiconductors",
+      "description": "600V IGBT, 30A continuous",
+      "parameters": {
+        "vces_max": 600,
+        "ic_max": 30,
+        "vce_on": 1.7,
+        "rds_on": 0.03,
+        "vgs_th": 4.5,
+        "qgate": 200e-9
+      },
+      "pins": {
+        "1": "Collector",
+        "2": "Gate",
+        "3": "Emitter"
+      },
+      "package": "TO-220"
+    },
+    {
+      "id": "igbt_ixgp6n60t",
+      "name": "IXGP6N60T - IGBT",
+      "type": "IGBT",
+      "category": "Power Semiconductors",
+      "description": "600V IGBT, 6A continuous",
+      "parameters": {
+        "vces_max": 600,
+        "ic_max": 6,
+        "vce_on": 1.75,
+        "vgs_th": 3.5
+      },
+      "package": "TO-220"
+    },
+    {
+      "id": "diode_1n5408",
+      "name": "1N5408 - Power Rectifier Diode",
+      "type": "Power Diode",
+      "category": "Power Semiconductors",
+      "description": "3-ampere power rectifier, 1000V",
+      "parameters": {
+        "vr_max": 1000,
+        "if_max": 3,
+        "vf_max": 1.3,
+        "rr_max": 500e-9,
+        "tj_max": 175
+      },
+      "pins": {
+        "1": "Anode (+)",
+        "2": "Cathode (-)"
+      },
+      "package": "DO-27"
+    },
+    {
+      "id": "diode_1n4007",
+      "name": "1N4007 - General Purpose Rectifier",
+      "type": "Power Diode",
+      "category": "Power Semiconductors",
+      "description": "1-ampere power rectifier, 1000V",
+      "parameters": {
+        "vr_max": 1000,
+        "if_max": 1,
+        "vf_max": 1.1,
+        "rr_max": 500e-9
+      },
+      "package": "DO-41"
+    },
+    {
+      "id": "bridge_rectifier_kbp207",
+      "name": "KBP207 - Bridge Rectifier",
+      "type": "Bridge Rectifier",
+      "category": "Power Semiconductors",
+      "description": "2-ampere bridge rectifier, 700V",
+      "parameters": {
+        "vr_max": 700,
+        "ifav": 2,
+        "vf_max": 1.0,
+        "thermal_resistance": 50
+      },
+      "pins": {
+        "1": "AC",
+        "2": "AC",
+        "3": "+DC",
+        "4": "-DC"
+      },
+      "package": "DF-4"
+    },
+    {
+      "id": "triac_bt137600",
+      "name": "BT137-600 - Triac",
+      "type": "Triac",
+      "category": "Power Semiconductors",
+      "description": "600V TRIAC, 8A",
+      "parameters": {
+        "v_drm": 600,
+        "it_rms": 8,
+        "dv_dt": 50,
+        "gate_threshold": 5e-3
+      },
+      "pins": {
+        "1": "A1",
+        "2": "Gate",
+        "3": "A2"
+      },
+      "package": "TO-220"
+    }
+  ]
+}

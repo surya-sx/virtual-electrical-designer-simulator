@@ -1,0 +1,117 @@
+{
+  "library": "Passive Components - Advanced",
+  "version": "1.0",
+  "description": "Advanced passive components including varistors, thermistors, fuses, protection devices",
+  "components": [
+    {
+      "id": "R_THERMISTOR_NTC",
+      "name": "NTC Thermistor 10kΩ",
+      "type": "Thermistor",
+      "category": "Temperature Sensor",
+      "value": "10kΩ@25°C",
+      "base_resistance": 10000,
+      "b_constant": 3950,
+      "temperature_range": "-40 to +125°C",
+      "use_case": "Temperature sensing, compensation"
+    },
+    {
+      "id": "R_THERMISTOR_PTC",
+      "name": "PTC Thermistor",
+      "type": "Thermistor",
+      "category": "Temperature Sensor",
+      "value": "PTC",
+      "curie_temperature": 150,
+      "resistance_20c": 10000,
+      "max_current": 2.0,
+      "use_case": "Temperature protection, inrush current limiting"
+    },
+    {
+      "id": "R_VARISTOR_MOV",
+      "name": "MOV Varistor 14mm",
+      "type": "Varistor",
+      "category": "Surge Protection",
+      "value": "14mm",
+      "voltage_range": "130V-1000V",
+      "max_energy": 50,
+      "clamping_voltage": 390,
+      "use_case": "Surge suppression, spike protection"
+    },
+    {
+      "id": "R_POTENTIOMETER_100K",
+      "name": "Potentiometer 100kΩ",
+      "type": "Potentiometer",
+      "category": "Variable Resistor",
+      "value": "100kΩ",
+      "resistance": 100000,
+      "max_power": 0.5,
+      "taper": "Linear",
+      "use_case": "Volume control, adjustment, tuning"
+    },
+    {
+      "id": "R_RHEOSTAT_POWER",
+      "name": "Power Rheostat 50W",
+      "type": "Rheostat",
+      "category": "Variable Resistor",
+      "value": "0-500Ω",
+      "max_power": 50,
+      "max_current": 10,
+      "use_case": "Load testing, power dissipation"
+    },
+    {
+      "id": "R_LDR_CDS",
+      "name": "CDS Photoresistor",
+      "type": "LDR",
+      "category": "Light Sensor",
+      "value": "CDS",
+      "dark_resistance": "1MΩ",
+      "light_resistance": "10kΩ",
+      "spectral_response": "400-700nm",
+      "use_case": "Light level detection, automatic lighting"
+    },
+    {
+      "id": "FUSE_1A",
+      "name": "Glass Fuse 1A",
+      "type": "Fuse",
+      "category": "Protection",
+      "value": "1A",
+      "nominal_current": 1.0,
+      "max_voltage": 250,
+      "breaking_capacity": 1500,
+      "package": "5x20mm",
+      "use_case": "Circuit protection, overcurrent prevention"
+    },
+    {
+      "id": "FUSE_5A",
+      "name": "Glass Fuse 5A",
+      "type": "Fuse",
+      "category": "Protection",
+      "value": "5A",
+      "nominal_current": 5.0,
+      "max_voltage": 250,
+      "breaking_capacity": 1500,
+      "package": "5x20mm",
+      "use_case": "Circuit protection"
+    },
+    {
+      "id": "FUSE_THERMAL",
+      "name": "Thermal Fuse 125°C",
+      "type": "Thermal Fuse",
+      "category": "Protection",
+      "value": "2A",
+      "trip_temperature": 125,
+      "nominal_current": 2.0,
+      "use_case": "Temperature-based protection"
+    },
+    {
+      "id": "SUPPRESSOR_POLY",
+      "name": "Polyfuse 500mA",
+      "type": "Resettable Fuse",
+      "category": "Protection",
+      "value": "500mA",
+      "nominal_current": 0.5,
+      "trip_current": 1.0,
+      "max_voltage": 16,
+      "use_case": "Overcurrent protection, self-healing"
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "components": [
+    {
+      "id": "logic_7400",
+      "name": "7400 - Quad NAND Gate",
+      "type": "Logic Gate",
+      "category": "Digital ICs",
+      "description": "Four 2-input NAND gates (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "logic_level_high": 2.4,
+        "logic_level_low": 0.4,
+        "propagation_delay": 22e-9,
+        "max_fanout": 10,
+        "power_consumption": 0.15
+      },
+      "pins": {
+        "1": "1A",
+        "2": "1B",
+        "3": "1Y",
+        "4": "2A",
+        "5": "2B",
+        "6": "2Y",
+        "7": "GND",
+        "8": "3Y",
+        "9": "3A",
+        "10": "3B",
+        "11": "4Y",
+        "12": "4A",
+        "13": "4B",
+        "14": "V_cc"
+      },
+      "package": "DIP-14",
+      "gates": 4,
+      "truth_table": "NAND"
+    },
+    {
+      "id": "logic_7402",
+      "name": "7402 - Quad NOR Gate",
+      "type": "Logic Gate",
+      "category": "Digital ICs",
+      "description": "Four 2-input NOR gates (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "propagation_delay": 22e-9,
+        "max_fanout": 10
+      },
+      "pins": {},
+      "package": "DIP-14",
+      "gates": 4
+    },
+    {
+      "id": "logic_7408",
+      "name": "7408 - Quad AND Gate",
+      "type": "Logic Gate",
+      "category": "Digital ICs",
+      "description": "Four 2-input AND gates (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "propagation_delay": 21e-9
+      },
+      "package": "DIP-14",
+      "gates": 4
+    },
+    {
+      "id": "logic_7432",
+      "name": "7432 - Quad OR Gate",
+      "type": "Logic Gate",
+      "category": "Digital ICs",
+      "description": "Four 2-input OR gates (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "propagation_delay": 22e-9
+      },
+      "package": "DIP-14",
+      "gates": 4
+    },
+    {
+      "id": "logic_7404",
+      "name": "7404 - Hex Inverter",
+      "type": "Logic Gate",
+      "category": "Digital ICs",
+      "description": "Six inverters (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "propagation_delay": 15e-9
+      },
+      "package": "DIP-14",
+      "gates": 6
+    },
+    {
+      "id": "logic_7473",
+      "name": "7473 - Dual JK Flip-Flop",
+      "type": "Flip-Flop",
+      "category": "Digital ICs",
+      "description": "Dual JK flip-flop with clear (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "max_frequency": 25e6,
+        "setup_time": 20e-9,
+        "hold_time": 0
+      },
+      "package": "DIP-14"
+    },
+    {
+      "id": "logic_7474",
+      "name": "7474 - Dual D Flip-Flop",
+      "type": "Flip-Flop",
+      "category": "Digital ICs",
+      "description": "Dual D flip-flop with set and clear (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "max_frequency": 25e6,
+        "setup_time": 20e-9,
+        "hold_time": 0
+      },
+      "package": "DIP-14"
+    },
+    {
+      "id": "logic_7490",
+      "name": "7490 - Decade Counter",
+      "type": "Counter",
+      "category": "Digital ICs",
+      "description": "Decade counter (BCD) (TTL)",
+      "parameters": {
+        "family": "TTL",
+        "supply_voltage": 5,
+        "max_frequency": 25e6,
+        "modulus": 10
+      },
+      "package": "DIP-14"
+    },
+    {
+      "id": "logic_555",
+      "name": "NE555 - Timer",
+      "type": "Timer",
+      "category": "Digital ICs",
+      "description": "Precision timer/astable-monostable multivibrator",
+      "parameters": {
+        "supply_voltage": 5,
+        "supply_voltage_range": [4.75, 15],
+        "frequency_range": [0, 500000],
+        "output_current": 0.2,
+        "timing_accuracy": 0.02
+      },
+      "pins": {
+        "1": "GND",
+        "2": "Trigger",
+        "3": "Output",
+        "4": "Reset",
+        "5": "Ctrl Volt",
+        "6": "Threshold",
+        "7": "Discharge",
+        "8": "V_cc"
+      },
+      "package": "DIP-8"
+    },
+    {
+      "id": "mcu_atmega328p",
+      "name": "ATmega328P - Microcontroller",
+      "type": "Microcontroller",
+      "category": "Digital ICs",
+      "description": "8-bit AVR microcontroller, Arduino compatible",
+      "parameters": {
+        "processor": "AVR",
+        "clock_speed": 16000000,
+        "flash_memory": 32768,
+        "sram": 2048,
+        "eeprom": 1024,
+        "io_pins": 23,
+        "supply_voltage": 5,
+        "power_consumption": 0.01
+      },
+      "pins": {
+        "1": "PB6 (XTAL1)",
+        "2": "PB7 (XTAL2)",
+        "7": "V_cc",
+        "8": "GND"
+      },
+      "package": "DIP-28",
+      "features": ["32KB Flash", "2KB SRAM", "PWM Timers", "ADC"]
+    }
+  ]
+}

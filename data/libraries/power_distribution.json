@@ -1,0 +1,123 @@
+{
+  "library": "Power Distribution & Protection",
+  "version": "1.0",
+  "description": "Circuit breakers, fuses, surge protection, busbars, connectors, and distribution equipment",
+  "components": [
+    {
+      "id": "BREAKER_MCB_10A",
+      "name": "MCB Type C 10A",
+      "type": "Miniature Circuit Breaker",
+      "category": "MCB",
+      "value": "10A",
+      "rated_current": 10.0,
+      "rated_voltage": 230,
+      "trip_current": "50-100A",
+      "response_time": 0.02,
+      "breaking_capacity": 6000,
+      "use_case": "Residential circuit protection"
+    },
+    {
+      "id": "BREAKER_MCB_32A",
+      "name": "MCB Type C 32A",
+      "type": "Miniature Circuit Breaker",
+      "category": "MCB",
+      "value": "32A",
+      "rated_current": 32.0,
+      "rated_voltage": 230,
+      "breaking_capacity": 6000,
+      "use_case": "Main circuit protection, appliance circuits"
+    },
+    {
+      "id": "BREAKER_RCD_30MA",
+      "name": "RCD (GFCI) 30mA",
+      "type": "Residual Current Device",
+      "category": "RCD",
+      "value": "30mA",
+      "trip_current": 0.03,
+      "rated_voltage": 230,
+      "frequency": 50,
+      "response_time": 0.04,
+      "use_case": "Shock protection, water area circuits"
+    },
+    {
+      "id": "BREAKER_RCCB_100MA",
+      "name": "RCCB Class A 100mA",
+      "type": "Residual Current Circuit Breaker",
+      "category": "RCCB",
+      "value": "100mA",
+      "trip_current": 0.1,
+      "rated_voltage": 230,
+      "breaking_capacity": 25000,
+      "use_case": "General leakage protection"
+    },
+    {
+      "id": "SPD_TYPE2_20KA",
+      "name": "Type 2 SPD 20kA",
+      "type": "Surge Protective Device",
+      "category": "SPD",
+      "value": "20kA",
+      "max_discharge_current": 20000,
+      "nominal_voltage": 230,
+      "response_time": 0.000001,
+      "mounting": "DIN rail",
+      "use_case": "Lightning protection, surge suppression"
+    },
+    {
+      "id": "BUSBAR_100A",
+      "name": "Copper Busbar 100A",
+      "type": "Busbar",
+      "category": "Distribution",
+      "value": "100A",
+      "rated_current": 100.0,
+      "material": "Copper",
+      "temperature_rise": 30,
+      "use_case": "Main distribution, bus connection"
+    },
+    {
+      "id": "CONNECTOR_TERMINAL_BLOCK",
+      "name": "Terminal Block 2-Way",
+      "type": "Connector",
+      "category": "Terminal",
+      "value": "2-way",
+      "rated_current": 20.0,
+      "rated_voltage": 250,
+      "wire_gauge": "1.5 to 2.5mm²",
+      "pitch": 5.0,
+      "use_case": "Wire connections, modular connections"
+    },
+    {
+      "id": "CONNECTOR_ANDERSON",
+      "name": "Anderson PowerPole",
+      "type": "Connector",
+      "category": "Power Connector",
+      "value": "30A",
+      "rated_current": 30.0,
+      "rated_voltage": 600,
+      "contact_material": "Tin-plated copper",
+      "use_case": "Battery connection, emergency power"
+    },
+    {
+      "id": "ISOLATOR_SWITCH_63A",
+      "name": "Isolator Switch 63A",
+      "type": "Switch",
+      "category": "Isolator",
+      "value": "63A",
+      "rated_current": 63.0,
+      "rated_voltage": 250,
+      "contact_material": "Silver",
+      "use_case": "Main isolation, emergency shutdown"
+    },
+    {
+      "id": "LOAD_CENTER_ENCLOSURE",
+      "name": "Load Center Enclosure IP54",
+      "type": "Enclosure",
+      "category": "Panel",
+      "value": "18 Module",
+      "protection_class": "IP54",
+      "din_modules": 18,
+      "material": "Plastic",
+      "dimensions": "650x330x165mm",
+      "use_case": "Distribution board, circuit protection hub"
+    }
+  ]
+}

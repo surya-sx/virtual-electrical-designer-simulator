@@ -1,0 +1,194 @@
+{
+  "components": [
+    {
+      "id": "opamp_tl072",
+      "name": "TL072 - Dual Op-Amp",
+      "type": "OpAmp",
+      "category": "Analog ICs",
+      "description": "Dual low-noise JFET-input operational amplifier",
+      "parameters": {
+        "supply_voltage": 15,
+        "supply_voltage_range": [-15, 15],
+        "gain_bandwidth": 13000000,
+        "input_impedance": 1e12,
+        "output_impedance": 75,
+        "slew_rate": 13000000,
+        "cmrr": 86,
+        "psrr": 80,
+        "input_offset_voltage": 10e-3,
+        "input_bias_current": 0.08e-12,
+        "quiescent_current": 2.8e-3
+      },
+      "pins": {
+        "1": "Out A",
+        "2": "In- A",
+        "3": "In+ A",
+        "4": "V-",
+        "5": "In- B",
+        "6": "Out B",
+        "7": "V+",
+        "8": "NC"
+      },
+      "package": "DIP-8",
+      "manufacturer": "TI",
+      "features": ["Low Noise", "JFET Input", "Wide Bandwidth"]
+    },
+    {
+      "id": "opamp_tl081",
+      "name": "TL081 - Single Op-Amp",
+      "type": "OpAmp",
+      "category": "Analog ICs",
+      "description": "Single low-noise JFET-input operational amplifier",
+      "parameters": {
+        "supply_voltage": 15,
+        "gain_bandwidth": 13000000,
+        "input_impedance": 1e12,
+        "slew_rate": 13000000,
+        "cmrr": 86,
+        "psrr": 80
+      },
+      "pins": {
+        "1": "Offset Null",
+        "2": "In-",
+        "3": "In+",
+        "4": "V-",
+        "5": "Offset Null",
+        "6": "Out",
+        "7": "V+",
+        "8": "NC"
+      },
+      "package": "DIP-8"
+    },
+    {
+      "id": "opamp_lm358",
+      "name": "LM358 - Dual Op-Amp",
+      "type": "OpAmp",
+      "category": "Analog ICs",
+      "description": "Dual general-purpose operational amplifier, single supply",
+      "parameters": {
+        "supply_voltage": 5,
+        "supply_voltage_range": [0, 32],
+        "gain_bandwidth": 1000000,
+        "input_impedance": 2e6,
+        "slew_rate": 0.5e6,
+        "cmrr": 65,
+        "psrr": 65,
+        "quiescent_current": 0.7e-3
+      },
+      "pins": {
+        "1": "Out A",
+        "2": "In- A",
+        "3": "In+ A",
+        "4": "V-",
+        "5": "In- B",
+        "6": "Out B",
+        "7": "V+",
+        "8": "NC"
+      },
+      "package": "DIP-8",
+      "features": ["Single Supply", "Low Cost", "General Purpose"]
+    },
+    {
+      "id": "opamp_ua741",
+      "name": "UA741 - Single Op-Amp",
+      "type": "OpAmp",
+      "category": "Analog ICs",
+      "description": "Classic general-purpose operational amplifier",
+      "parameters": {
+        "supply_voltage": 15,
+        "gain_bandwidth": 1000000,
+        "input_impedance": 2e6,
+        "slew_rate": 0.5e6,
+        "cmrr": 70,
+        "psrr": 70
+      },
+      "pins": {
+        "1": "Offset Null",
+        "2": "In-",
+        "3": "In+",
+        "4": "V-",
+        "5": "Offset Null",
+        "6": "Out",
+        "7": "V+",
+        "8": "NC"
+      },
+      "package": "DIP-8"
+    },
+    {
+      "id": "comparator_lm393",
+      "name": "LM393 - Dual Comparator",
+      "type": "Comparator",
+      "category": "Analog ICs",
+      "description": "Dual voltage comparator",
+      "parameters": {
+        "supply_voltage": 5,
+        "supply_voltage_range": [2, 36],
+        "input_impedance": 10e6,
+        "response_time": 300e-9,
+        "hysteresis": 0.005
+      },
+      "pins": {
+        "1": "In+ A",
+        "2": "In- A",
+        "3": "Out A",
+        "4": "V-",
+        "5": "Out B",
+        "6": "In- B",
+        "7": "In+ B",
+        "8": "V+"
+      },
+      "package": "DIP-8"
+    },
+    {
+      "id": "adc_ad0804",
+      "name": "AD0804 - 8-Bit ADC",
+      "type": "ADC",
+      "category": "Analog ICs",
+      "description": "8-bit microprocessor-compatible analog-to-digital converter",
+      "parameters": {
+        "resolution": 8,
+        "conversion_time": 100e-6,
+        "reference_voltage": 5,
+        "input_impedance": 1.4e6,
+        "throughput": 10000,
+        "power_consumption": 0.15
+      },
+      "pins": {
+        "1": "CS",
+        "2": "RD",
+        "3": "WR",
+        "4": "CLK",
+        "5": "INTR",
+        "6": "V_ref/2",
+        "7": "GND",
+        "8": "V_cc"
+      },
+      "package": "DIP-20"
+    },
+    {
+      "id": "dac_ad7480",
+      "name": "AD7480 - 8-Bit DAC",
+      "type": "DAC",
+      "category": "Analog ICs",
+      "description": "8-bit digital-to-analog converter",
+      "parameters": {
+        "resolution": 8,
+        "settling_time": 300e-9,
+        "reference_voltage": 5,
+        "output_impedance": 10,
+        "power_consumption": 0.15
+      },
+      "pins": {
+        "1": "D0",
+        "2": "D1",
+        "3": "D2",
+        "4": "D3",
+        "5": "D4",
+        "6": "D5",
+        "7": "D6",
+        "8": "D7"
+      },
+      "package": "DIP-16"
+    }
+  ]
+}

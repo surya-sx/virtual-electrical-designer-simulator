@@ -1,0 +1,123 @@
+{
+  "library": "Connectors & Interfaces",
+  "version": "1.0",
+  "description": "USB, HDMI, Ethernet, audio connectors, headers, and communication interfaces",
+  "components": [
+    {
+      "id": "CONNECTOR_USB_TYPE_A",
+      "name": "USB Type-A Connector",
+      "type": "USB Connector",
+      "category": "USB Standard",
+      "value": "Type-A",
+      "pins": 4,
+      "contacts": "Gold-plated",
+      "current_rating": 1.5,
+      "voltage_rating": 5.0,
+      "use_case": "Standard USB connections, computer peripherals"
+    },
+    {
+      "id": "CONNECTOR_USB_TYPE_C",
+      "name": "USB Type-C Connector",
+      "type": "USB Connector",
+      "category": "USB Modern",
+      "value": "Type-C",
+      "pins": 24,
+      "contacts": "Gold-plated",
+      "current_rating": 3.0,
+      "voltage_rating": 5.0,
+      "use_case": "Modern devices, power delivery"
+    },
+    {
+      "id": "CONNECTOR_HDMI",
+      "name": "HDMI Type-A Connector",
+      "type": "Video Connector",
+      "category": "HDMI",
+      "value": "Type-A",
+      "pins": 19,
+      "bandwidth": "10.2Gbps",
+      "current_rating": 0.5,
+      "use_case": "Video/audio transmission, display"
+    },
+    {
+      "id": "CONNECTOR_ETHERNET_RJ45",
+      "name": "RJ45 Ethernet Connector",
+      "type": "Network Connector",
+      "category": "Ethernet",
+      "value": "RJ45",
+      "pins": 8,
+      "category_rating": "Cat 6",
+      "impedance": 100,
+      "frequency": 250000000,
+      "use_case": "Network connection, Ethernet cables"
+    },
+    {
+      "id": "CONNECTOR_3.5MM_AUDIO",
+      "name": "3.5mm Audio Jack",
+      "type": "Audio Connector",
+      "category": "Mini Jack",
+      "value": "3.5mm",
+      "pins": 3,
+      "type_name": "TRS (Tip-Ring-Sleeve)",
+      "impedance": 32,
+      "contacts": "Gold-plated",
+      "use_case": "Headphone, microphone connections"
+    },
+    {
+      "id": "CONNECTOR_DC_POWER_2.1MM",
+      "name": "DC Power Jack 2.1x5.5mm",
+      "type": "Power Connector",
+      "category": "DC Connector",
+      "value": "2.1x5.5mm",
+      "pin_diameter": 2.1,
+      "sleeve_diameter": 5.5,
+      "current_rating": 5.0,
+      "voltage_rating": 40.0,
+      "use_case": "Power adapter connector"
+    },
+    {
+      "id": "HEADER_PIN_MALE_2.54MM",
+      "name": "2.54mm Male Header Pin",
+      "type": "Header",
+      "category": "Pin Header",
+      "value": "1x40",
+      "pitch": 2.54,
+      "type_name": "Single Row",
+      "pins": 40,
+      "material": "Phosphor bronze",
+      "use_case": "Breadboard connections, prototype jumpers"
+    },
+    {
+      "id": "CONNECTOR_RCA",
+      "name": "RCA Connector",
+      "type": "Audio/Video Connector",
+      "category": "RCA",
+      "value": "RCA",
+      "pins": 2,
+      "impedance": 75,
+      "frequency": 6000000,
+      "use_case": "Composite video, audio connections"
+    },
+    {
+      "id": "CONNECTOR_BNC_50OHM",
+      "name": "BNC Connector 50Ω",
+      "type": "RF Connector",
+      "category": "BNC",
+      "value": "50Ω",
+      "impedance": 50,
+      "frequency": 4000000000,
+      "contacts": "Gold-plated",
+      "use_case": "RF cables, test equipment"
+    },
+    {
+      "id": "CONNECTOR_I2C_JST",
+      "name": "JST I2C/SDA Connector",
+      "type": "Data Connector",
+      "category": "JST",
+      "value": "4-pin",
+      "pitch": 2.0,
+      "current_rating": 0.5,
+      "voltage_rating": 5.0,
+      "use_case": "I2C sensor connections, modular systems"
+    }
+  ]
+}

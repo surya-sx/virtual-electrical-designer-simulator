@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "id": "bjt_2n2222",
+      "name": "2N2222 - NPN BJT",
+      "type": "BJT",
+      "category": "Semiconductors",
+      "description": "High-speed silicon NPN transistor",
+      "parameters": {
+        "transistor_type": "NPN",
+        "vce_max": 30,
+        "ic_max": 0.8,
+        "vbe": 0.7,
+        "hfe": 100,
+        "ft": 900000000,
+        "cob": 8e-12,
+        "rise_time": 10e-9,
+        "fall_time": 15e-9,
+        "storage_time": 20e-9
+      },
+      "pins": {
+        "B": "Base",
+        "C": "Collector",
+        "E": "Emitter"
+      },
+      "package": "TO-92",
+      "manufacturer": "Various",
+      "datasheet": "https://example.com/2n2222.pdf"
+    },
+    {
+      "id": "bjt_2n3904",
+      "name": "2N3904 - NPN BJT",
+      "type": "BJT",
+      "category": "Semiconductors",
+      "description": "Small-signal NPN transistor, general purpose",
+      "parameters": {
+        "transistor_type": "NPN",
+        "vce_max": 40,
+        "ic_max": 0.2,
+        "vbe": 0.7,
+        "hfe": 100,
+        "ft": 300000000,
+        "cob": 4e-12
+      },
+      "pins": {
+        "B": "Base",
+        "C": "Collector",
+        "E": "Emitter"
+      },
+      "package": "TO-92"
+    },
+    {
+      "id": "bjt_2n2907",
+      "name": "2N2907 - PNP BJT",
+      "type": "BJT",
+      "category": "Semiconductors",
+      "description": "High-speed silicon PNP transistor",
+      "parameters": {
+        "transistor_type": "PNP",
+        "vce_max": 30,
+        "ic_max": 0.8,
+        "vbe": -0.7,
+        "hfe": 100,
+        "ft": 800000000
+      },
+      "pins": {
+        "B": "Base",
+        "C": "Collector",
+        "E": "Emitter"
+      },
+      "package": "TO-92"
+    },
+    {
+      "id": "mosfet_irf540n",
+      "name": "IRF540N - N-Channel MOSFET",
+      "type": "MOSFET",
+      "category": "Power Semiconductors",
+      "description": "Power N-channel MOSFET, 33A continuous",
+      "parameters": {
+        "channel_type": "N",
+        "vds_max": 100,
+        "id_max": 33,
+        "rds_on": 0.044,
+        "vgs_th": 4,
+        "cgs": 1.4e-9,
+        "cds": 0.7e-9,
+        "qg": 100e-9
+      },
+      "pins": {
+        "G": "Gate",
+        "D": "Drain",
+        "S": "Source"
+      },
+      "package": "TO-220"
+    },
+    {
+      "id": "mosfet_2n7000",
+      "name": "2N7000 - N-Channel MOSFET",
+      "type": "MOSFET",
+      "category": "Semiconductors",
+      "description": "Small-signal N-channel MOSFET",
+      "parameters": {
+        "channel_type": "N",
+        "vds_max": 60,
+        "id_max": 0.2,
+        "rds_on": 5,
+        "vgs_th": 1.5,
+        "cgs": 20e-12
+      },
+      "pins": {
+        "G": "Gate",
+        "D": "Drain",
+        "S": "Source"
+      },
+      "package": "TO-92"
+    },
+    {
+      "id": "jfet_2n5457",
+      "name": "2N5457 - N-Channel JFET",
+      "type": "JFET",
+      "category": "Semiconductors",
+      "description": "Low-noise N-channel JFET",
+      "parameters": {
+        "channel_type": "N",
+        "vds_max": 25,
+        "id_max": 0.014,
+        "vgs_off": -6,
+        "cds": 1.4e-12
+      },
+      "pins": {
+        "G": "Gate",
+        "D": "Drain",
+        "S": "Source"
+      },
+      "package": "TO-92"
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "library": "Power Sources",
+  "version": "1.0",
+  "category": "Active Components",
+  "description": "Voltage and current source components for simulation",
+  "components": [
+    {
+      "id": "VS_5V",
+      "name": "Voltage Source",
+      "type": "Voltage Source",
+      "value": "5V",
+      "voltage": 5,
+      "unit": "V",
+      "type_ac": "DC",
+      "frequency": 0,
+      "phase": 0,
+      "symbol": "VS",
+      "datasheet": "Ideal Voltage Source"
+    },
+    {
+      "id": "VS_12V",
+      "name": "Voltage Source",
+      "type": "Voltage Source",
+      "value": "12V",
+      "voltage": 12,
+      "unit": "V",
+      "type_ac": "DC",
+      "frequency": 0,
+      "phase": 0,
+      "symbol": "VS",
+      "datasheet": "Ideal Voltage Source"
+    },
+    {
+      "id": "VS_24V",
+      "name": "Voltage Source",
+      "type": "Voltage Source",
+      "value": "24V",
+      "voltage": 24,
+      "unit": "V",
+      "type_ac": "DC",
+      "frequency": 0,
+      "phase": 0,
+      "symbol": "VS",
+      "datasheet": "Ideal Voltage Source"
+    },
+    {
+      "id": "VS_AC_230V",
+      "name": "AC Voltage Source",
+      "type": "Voltage Source",
+      "value": "230V AC",
+      "voltage": 230,
+      "unit": "V",
+      "type_ac": "AC",
+      "frequency": 50,
+      "phase": 0,
+      "symbol": "VS~",
+      "datasheet": "AC Voltage Source (50Hz)"
+    },
+    {
+      "id": "VS_AC_120V",
+      "name": "AC Voltage Source",
+      "type": "Voltage Source",
+      "value": "120V AC",
+      "voltage": 120,
+      "unit": "V",
+      "type_ac": "AC",
+      "frequency": 60,
+      "phase": 0,
+      "symbol": "VS~",
+      "datasheet": "AC Voltage Source (60Hz)"
+    },
+    {
+      "id": "IS_1A",
+      "name": "Current Source",
+      "type": "Current Source",
+      "value": "1A",
+      "current": 1,
+      "unit": "A",
+      "type_ac": "DC",
+      "frequency": 0,
+      "symbol": "IS",
+      "datasheet": "Ideal Current Source"
+    }
+  ]
+}
