@@ -4,8 +4,8 @@ setup(
     name="virtual-electrical-designer",
     version="0.1.0",
     description="A comprehensive desktop application for designing and simulating electrical circuits",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Surya B",
+    author_email="myselfsuryaaz@gmail.com",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     python_requires=">=3.8",
@@ -25,3 +25,4 @@ setup(
         ],
     },
 )
+
